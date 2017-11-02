@@ -165,9 +165,17 @@ li:last-child{
 }
 
 /* --------- definition list styles below here --------- */
-
-
-
+/*
+dl{
+	padding: 20px;
+}
+dt{
+	padding: 5px;
+	text-decoration: underline;
+}
+dd{
+	padding-bottom: 10px;
+}*/
 
 /* --------- Basic responsive breakpoint --------- */
 

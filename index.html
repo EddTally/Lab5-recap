@@ -27,10 +27,10 @@
     <!-- the *label* for the radio button forms the clickable tabs -->
     <label for="tab1"><i class="fa fa-code"></i><span>HTML5</span></label>
 
-    <input id="tab2" type="radio" name="tabs" checked>
+    <input id="tab2" type="radio" name="tabs">
     <label for="tab2"><i class="fa fa-hashtag"></i><span>CSS</span></label>
 
-    <input id="tab3" type="radio" name="tabs">
+    <input id="tab3" type="radio" name="tabs" checked>
     <label for="tab3"><i class="fa fa-bug"></i><span>JavaScript</span></label>
 
     <!-- content for tab 1: HTML5 -->
@@ -105,8 +105,9 @@
         <h2>JavaScript</h2>
       </header>
 
+	  <!--
       <dl>
-        <!-- 5 pairs of dt and dd tags -->
+      // 5 pairs of dt and dd tags
 		<dt>JavaScript</dt>
 		<dd>!=Java</dd>
 		
@@ -121,7 +122,13 @@
 		
 		<dt>JavaScript</dt>
 		<dd>!=Java</dd>
-      </dl>
+      </dl> //-->
+	  
+	<form id="get-text" action="#" method="post">
+      <label for="text-input">Enter text:</label>
+      <input type="text" id="text-input" placeholder="Enter Text?">
+      <input type="submit">
+	</form>
 
       <footer>
         <p>add an optional link to an JavaScript article here</p>
